@@ -85,8 +85,6 @@ PM_START_TEXT = """
    *➻ ᴛᴇʟᴀʜ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ »* {} ɢʀᴏᴜᴘs
 ─────────────────
 ᴅᴇᴠ: @mhmdwldnnnn
-
-ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
 
 buttons = [
@@ -364,8 +362,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*ʜᴀʟʟᴏ ᴍᴇᴋ,*👋\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
-            "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ ʙᴜᴀᴛ ᴅɪ ɢʀᴏᴜᴘ ʟᴜ!*"
-            "\n*ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋʏᴋ ʏᴀɴɢ ʟᴀɪɴ*"                     
+            "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ ʙᴜᴀᴛ ᴅɪ ɢʀᴏᴜᴘ ʟᴜ ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋʏᴋ ʏᴀɴɢ ʟᴀɪɴ!*"                     
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {sql.num_users()}"
