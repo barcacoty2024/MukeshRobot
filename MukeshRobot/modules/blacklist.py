@@ -153,7 +153,7 @@ def unblacklist(update, context):
             if successful:
                 send_message(
                     update.effective_message,
-                    "Removed <code>{}</code> from blacklist in <b>{}</b>!".format(
+                    "ᴍᴇɴɢʜᴀᴘᴜs <code>{}</code> ᴅᴀʀɪ ᴅᴀғᴛᴀʀ ʙʟ ᴅɪ <b>{}</b>!".format(
                         html.escape(to_unblacklist[0]), html.escape(chat_name)
                     ),
                     parse_mode=ParseMode.HTML,
