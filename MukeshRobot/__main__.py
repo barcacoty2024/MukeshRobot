@@ -88,7 +88,7 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [  InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/mhmdwldnnnnbot"),
+    [  InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍ", url=f"https://t.me/mhmdwldnnnnbot"),
         
        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
@@ -361,14 +361,14 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*ʜᴀʟʟᴏ ᴍᴇᴋ,*👋\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
+        query.message.edit_caption(f"*ʜᴀʟʟᴏ ᴍᴇᴋ,*\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
             "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ ʙᴜᴀᴛ ᴅɪ ɢʀᴏᴜᴘ ʟᴜ ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋʏᴋ ʏᴀɴɢ ʟᴀɪɴ!*"                     
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {sql.num_users()}"
             f"\n*➻ ɢʀᴏᴜᴘs »* {sql.num_chats()}"
             "\n────────────────────"
-            f"\n\n*➻ Developer : @mhmdwldnnnn.*"   
+            f"\n*➻ Developer: @mhmdwldnnnn*"  
             f"\n\n*➻ ᴋʟɪᴋ ᴀᴊᴀ ᴋᴀᴋ ʙᴜᴛᴛᴏɴ ɴʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴛᴀᴜ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟᴇ ᴘᴇʀɪɴᴛᴀʜ ɴʏᴀ {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             
