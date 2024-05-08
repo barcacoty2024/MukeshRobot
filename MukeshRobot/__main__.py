@@ -363,8 +363,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*Hai Mek,*🏓\n  *Ini adalah {dispatcher.bot.first_name}*"
-            "\n*Bot Manage ➕ Music ➕ Generated String.*"
+        query.message.edit_caption(f"*ʜᴇʏ,*🏓\n  *ɪ'ᴍ {dispatcher.bot.first_name}*"
+            "\n*Bot Manage + Music + Generated String.*"
             "\n*Bot biasa aja sama kyk yang lain.*"
             "\n\n────────────────────"
             f"\n*➥ ᴜᴩᴛɪᴍᴇ »* {uptime}"
