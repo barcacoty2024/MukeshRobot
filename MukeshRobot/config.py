@@ -7,9 +7,9 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 5779185981 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "musik_supportdan"  # Your own group for support, do not add the @
     START_IMG = ""
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
@@ -24,12 +24,12 @@ class Config(object):
 
 
     # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    BL_CHATS = [5779185981]  # List of groups that you want blacklisted.
+    DRAGONS = [5779185981]  # User id of sudo users
+    DEV_USERS = [5779185981]  # User id of dev users
+    DEMONS = [5779185981]  # User id of support users
+    TIGERS = [5779185981]  # User id of tiger users
+    WOLVES = [5779185981]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
