@@ -24,7 +24,7 @@ async def _(bot: app, msg):
                        [
                            [ 
                                InlineKeyboardButton(
-                                    "Sini Nyet Masuk, Jangan Lu 
+                                    "Sini Nyet Masuk, Jangan Lu Salam", 
                                     url=link,
                                ) 
                             ]
