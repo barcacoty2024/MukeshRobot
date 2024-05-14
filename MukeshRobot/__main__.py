@@ -88,24 +88,24 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [  InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍ", url=f"https://t.me/mhmdwldnnnnbot"),
+        [    
+        InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍ", url=f"https://t.me/mhmdwldnnnnbot"),
         
-       InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-       InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
-     ], 
-    [
-        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/mhmdwldnnnn"),
-    ],     
-    [
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
+        ], 
+        [
+        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url="https://t.me/mhmdwldnnnn"),   
+        InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="donation_help"),
+        ],     
+        [
         InlineKeyboardButton(
             text="ᴛᴀᴍʙᴀʜ ᴋᴇ ɢᴄ ᴀᴍᴘᴀs ʟᴜ ➕",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     
-
 ]
-
 HELP_STRINGS = f"""
 » *{BOT_NAME}  ᴋʟɪᴋ ᴀᴊᴀ ᴋᴀᴋ ʙᴜᴛᴛᴏɴ ɴʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴛᴀᴜ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟᴇ ᴘᴇʀɪɴᴛᴀʜ ɴʏᴀ*"""
 
@@ -365,10 +365,10 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ ʙᴜᴀᴛ ᴅɪ ɢʀᴏᴜᴘ ʟᴜ ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋʏᴋ ʏᴀɴɢ ʟᴀɪɴ!*"                     
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
-            f"\n*➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {sql.num_users()}"
+            f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➻ ɢʀᴏᴜᴘs »* {sql.num_chats()}"
             "\n────────────────────"
-            f"\n*➻ Developer: @mhmdwldnnnn*"  
+            f"\n*➻ Developer: @mhmdwldnnnn.*"  
             f"\n\n*➻ ᴋʟɪᴋ ᴀᴊᴀ ᴋᴀᴋ ʙᴜᴛᴛᴏɴ ɴʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴛᴀᴜ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟᴇ ᴘᴇʀɪɴᴛᴀʜ ɴʏᴀ {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             
@@ -566,28 +566,23 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
                 ]
             ),
             )
-    elif query.data=="donation_help":
-        query.message.edit_caption("""ʟᴜ ᴋᴀʟᴏ ᴀᴅᴀ ᴅᴜɪᴛ ʟᴇʙɪʜ sᴀʙɪ ᴋᴀʟɪ ᴅᴏɴᴀᴛᴇ ᴋᴇ ᴅᴀɴᴀ ɢᴡ, ᴅᴀɴᴀ ɢᴡ sᴀᴍᴀ ᴋᴏᴋ ɴɢᴀʙ ᴡᴋᴀᴋᴀᴋ. 
-
- ɪɴɪ ʙᴏᴛ ʙᴜᴀᴛ ʜᴀᴠᴇ ғᴜɴ ʙɪᴛᴄʜ ɪɴɪ ᴊᴜɢᴀ ʙɪsᴀ ʙᴜᴀᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ ᴅɪ ɢᴄ ᴀᴛᴀᴜ ᴄʜ ʟᴜ, 
- sᴏ, ʟᴜ ᴘᴀᴋᴇ ᴀᴊᴀ ᴋᴀʟᴏ ʟᴜ ᴍᴀᴜ ᴘᴀᴋᴇ ᴋᴀᴛᴀ ᴋᴀᴛᴀ ɢᴡ ʏᴀɴɢ ᴅɪᴀᴛᴀs ᴄᴀɴᴅᴀᴀɴ ᴋᴏᴋ, 
-
-ᴛᴀᴘɪ ᴋᴀʟᴏ ᴍᴀᴜ ᴅᴏɴᴀᴛᴇ ɢᴡ ᴛᴀᴍᴘᴜɴɢ🤣""",parse_mode=ParseMode.MARKDOWN,
-            
+    elif query.data == "donation_help":
+        query.message.edit_caption(
+            caption="👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Saya."
+            "\n\n Bisa melalui Dana atau Contact Owner Bot",
+            parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [ [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id=5779185981"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-                    [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url=f"https://t.me/mhmdwldnnnn"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
-                    ]
+                [
+                 [
+                    InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/6l85aa18"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ 💰", url=f"https://t.me/mhmdwldnnnn"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="⩹", callback_data="mukesh_back"),
+                 ]
                 ]
             ),
-            )  
+        )
 def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
@@ -1059,7 +1054,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕ᴛᴀᴍʙᴀʜ ᴋᴇ ɢᴄ ᴀᴍᴘᴀs ʟᴜ➕",
-                            url="https://t.me/groupcontrollertgbot?startgroup=true"
+                            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
                             )
                      ]
                 ]
