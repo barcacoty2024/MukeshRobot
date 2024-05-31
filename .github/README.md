@@ -102,9 +102,9 @@ __help__ = "Module help message"
 
 @mukesh.on_message(filters.command("start"))
 async def some_function(_, message):
-    await message.reply_text("ɢʀᴇᴀᴛ.ᴀʟɪᴠᴇ ʙᴀʙʏ❣️!!")
+    await message.reply_text("ᴡɪʟᴅᴀɴ.ᴀʟɪᴠᴇ ʙᴀʙʏ❣️!!")
 
-# ᴍᴀɴʏ ᴜsᴇғᴜʟ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ɪɴ, GreatRobot/utils/,GreatRobot, GreatRobot/modules/
+# ᴍᴀɴʏ ᴜsᴇғᴜʟ ғᴜɴᴄᴛɪᴏɴs ᴀʀᴇ ɪɴ, WildanRobot/utils/,WildanRobot, WildanRobot/modules/
 ```
 
 <h3 align="center"> 
