@@ -89,7 +89,7 @@ PM_START_TEXT = """
 
 buttons = [
         [    
-        InlineKeyboardButton(text="ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍ", url=f"https://t.me/mhmdwldnnnnbot"),
+        InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ᴘʀᴇᴍ", url=f"https://t.me/WildanUltraPrem_bot"),
         
         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
         InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
